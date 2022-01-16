@@ -26,6 +26,9 @@
 		4B886A7827942EA100F0E038 /* CurrencyDetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B886A7727942EA100F0E038 /* CurrencyDetailsHeader.swift */; };
 		4B886A7A2794398C00F0E038 /* CurrencyDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B886A792794398C00F0E038 /* CurrencyDetailsCell.swift */; };
 		4B886A7C2794431E00F0E038 /* CurrencyDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B886A7B2794431E00F0E038 /* CurrencyDetailsCellViewModel.swift */; };
+		4B886A812794783900F0E038 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4B886A7E2794783800F0E038 /* 2.PNG */; };
+		4B886A822794783900F0E038 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4B886A7F2794783800F0E038 /* 1.PNG */; };
+		4B886A832794783900F0E038 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4B886A802794783900F0E038 /* 3.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		4B886A7727942EA100F0E038 /* CurrencyDetailsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsHeader.swift; sourceTree = "<group>"; };
 		4B886A792794398C00F0E038 /* CurrencyDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsCell.swift; sourceTree = "<group>"; };
 		4B886A7B2794431E00F0E038 /* CurrencyDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsCellViewModel.swift; sourceTree = "<group>"; };
+		4B886A7E2794783800F0E038 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		4B886A7F2794783800F0E038 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		4B886A802794783900F0E038 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		4B1CF2FF2792F51100309361 /* Currency-App */ = {
 			isa = PBXGroup;
 			children = (
+				4B886A7D279477AD00F0E038 /* Previews */,
 				4B1CF323279318BA00309361 /* Utils */,
 				4B1CF3202793186D00309361 /* View */,
 				4B1CF31D2793158600309361 /* ViewModel */,
@@ -154,6 +161,16 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		4B886A7D279477AD00F0E038 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				4B886A7F2794783800F0E038 /* 1.PNG */,
+				4B886A7E2794783800F0E038 /* 2.PNG */,
+				4B886A802794783900F0E038 /* 3.PNG */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,6 +231,9 @@
 			files = (
 				4B1CF30D2792F51400309361 /* LaunchScreen.storyboard in Resources */,
 				4B1CF30A2792F51400309361 /* Assets.xcassets in Resources */,
+				4B886A822794783900F0E038 /* 1.PNG in Resources */,
+				4B886A832794783900F0E038 /* 3.PNG in Resources */,
+				4B886A812794783900F0E038 /* 2.PNG in Resources */,
 				4B1CF3082792F51100309361 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
