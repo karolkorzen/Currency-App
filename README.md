@@ -17,5 +17,7 @@ Data fetched from NBP API (http://api.nbp.pl)
 
 ## Scenes_Preview
 
+<p align="center">
 <img src="./Currency-App/Previews/1.PNG" width="33%"> <img src="./Currency-App/Previews/2.PNG" width="33%">
 <img src="./Currency-App/Previews/3.PNG" width="66.5%%">
+  </p>
